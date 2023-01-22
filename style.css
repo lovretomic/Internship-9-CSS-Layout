@@ -29,10 +29,14 @@
   height: 100%;
   display: flex;
   align-items: center;
-  padding: 0px 13px;
+  padding: 0px 9px;
   text-decoration: none;
   font-weight: 700;
-  color: black;
+  color: #242a56;
+}
+
+.header__navigation-item.selected {
+  color: #008fd0;
 }
 
 .header__navigation-item-image {
@@ -41,15 +45,15 @@
 }
 
 .welcomeHeader {
-    width: 100%;
-    height: 680px;
-    background-color: #e5f4fb;
-    box-sizing: border-box;
-    padding-top: 65px;
-    box-sizing: border-box;
-    padding-left: 370px;
-    padding-right: 370px;
-    font-size: 14px;
+  width: 100%;
+  height: 680px;
+  background-color: #e5f4fb;
+  box-sizing: border-box;
+  padding-top: 65px;
+  box-sizing: border-box;
+  padding-left: 370px;
+  padding-right: 370px;
+  font-size: 14px;
 }
 
 .welcomeHeader__topLine {
@@ -61,9 +65,10 @@
 }
 
 .welcomeHeader__topLine-left {
-    display: flex;
-    height: 100%;
-    align-items: center;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  color: #242a56;
 }
 
 .welcomeHeader__topLine-left img {
@@ -83,6 +88,7 @@
 
 .welcomeHeader__topLine-right a {
   margin: 0 5px;
+  color: #242a56;
 }
 
 .welcomeHeader__content {
@@ -133,6 +139,7 @@
   font-size: 23px;
   font-weight: bold;
   color: white;
+  cursor: pointer;
 }
 
 .welcomeHeader__content-left-button img {
@@ -241,7 +248,6 @@
   width: 100%;
   height: 430px;
   background-color: #008fd0;
-  margin-bottom: 400px;
   color: white;
   text-align: center;
   padding: 40px 370px;
@@ -328,4 +334,59 @@
 .reviews__feefo {
   height: 57px;
   margin-top: 20px;
+}
+
+.guides {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.guides__navigation {
+  width: 100%;
+  height: 70px;
+  background-color: #efefef;
+  display: flex;
+  padding: 0 500px;
+  margin-bottom: 50px;
+}
+
+.guides__navigation-option {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  margin-right: 30px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.guides__navigation-option.selected {
+  border-bottom: 5px solid #008fd0;
+  color: #008fd0;
+}
+
+.guides__content {
+  padding: 0 500px;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.guides__content-item {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+
+.guides__content-item-image {
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.guides__content-item-title {
+  font-size: 20px;
+  color: #242a56;
 }
