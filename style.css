@@ -85,6 +85,10 @@
   margin: 0 5px;
 }
 
+.welcomeHeader__content {
+  display: flex;
+}
+
 .welcomeHeader__content-left-subtitle {
   font-size: 25px;
   color: #008fd0;
@@ -133,4 +137,69 @@
 
 .welcomeHeader__content-left-button img {
   height: 33px;
+}
+
+.welcomeHeader__content-right {
+  width: 40%;
+  display: flex;
+  padding: 25px 80px;
+}
+
+.welcomeHeader__content-right-box {
+  height: 100%;
+  width: 100%;
+  background-color: #242a56;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-start;
+  padding: 25px 15px;
+}
+
+.welcomeHeader__content-right-box h6{
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+
+.card-img {
+  height: 150px;
+  object-fit: contain;
+}
+
+.welcomeHeader__content-right-box-examples {
+  width: 100%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcomeHeader__content-right-box-examples .example {
+  height: 100%;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcomeHeader__content-right-box-examples .example p{
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+
+.vertical-divider {
+  width: 1px;
+  height: 80%;
+  background-color: white;
+  margin: 0 5px;
+}
+
+.welcomeHeader__content-right-box-paragraph {
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  margin-top: 10px;
 }
