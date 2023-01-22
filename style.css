@@ -42,7 +42,7 @@
 
 .welcomeHeader {
     width: 100%;
-    height: 560px;
+    height: 680px;
     background-color: #e5f4fb;
     box-sizing: border-box;
     padding-top: 65px;
@@ -202,4 +202,130 @@
   color: white;
   font-size: 12px;
   margin-top: 10px;
+}
+
+.welcomeHeader__bottomCards {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.welcomeHeader__bottomCards-card {
+  height: 100%;
+  width: 32%;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px 0 rgb(0, 0, 0, 0.22);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.welcomeHeader__bottomCards-card img {
+  height: 70%;
+  margin-right: 20px;
+}
+
+.welcomeHeader__bottomCards-card h4 {
+  font-size: 25px;
+}
+
+.welcomeHeader__bottomCards-card p {
+  font-size: 15px;
+}
+
+.reviews {
+  width: 100%;
+  height: 430px;
+  background-color: #008fd0;
+  margin-bottom: 400px;
+  color: white;
+  text-align: center;
+  padding: 40px 370px;
+}
+
+.reviews__title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.reviews__subtitle {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.reviews__review {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reviews__review-arrow-left,
+.reviews__review-arrow-right {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reviews__review-arrow-left img,
+.reviews__review-arrow-right img{
+  height: 60%;
+}
+
+.reviews__review-content {
+  height: 100%;
+  width: 720px;
+  background-color: white;
+  margin: 0 50px;
+  border-radius: 10px;
+  display: flex;
+  padding: 20px 30px;
+}
+
+.reviews__review-content-info {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.reviews__review-content-info-quote {
+  color: black;
+  font-weight: bold;
+}
+
+.reviews__review-content-info-data {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: #008fd0;
+}
+
+.reviews__review-content-info-data .date {
+  display: flex;
+  align-items: center;
+}
+
+.reviews__review-content-info-data .date .clock{
+  height: 17px;
+  margin-right: 3px;
+  margin-bottom: 2px;
+}
+
+.reviews__feefo {
+  height: 57px;
+  margin-top: 20px;
 }
